@@ -24,9 +24,8 @@ server = app.server
 
 # PREPROCESSING Load dataframe
 camera = dict(
-        eye=dict(x=2, y=2, z=0.8)
-    )
-
+    eye=dict(x=2, y=2, z=0.8)
+)
 
 # APPLICATION LAYOUT
 app.layout = html.Div([
@@ -37,7 +36,10 @@ app.layout = html.Div([
                 Visualization method is called telecides and it reflects quantitative visualization of the 
                 appropriateness of an e-content unit for the needs of 
                 the specific learner or learners target group.
-                ''', className="text-center my-5"),
+                ''',
+                 dcc.Link(html.H6('Go to course content', className='mt-3'), href='https://bpome.mii.lv/',
+                          target='_blank'),
+                 className="text-center my-5"),
     ], width=7,
     ), justify='center',
     ),
@@ -276,7 +278,7 @@ def update_telecides(value):
             y=telecides['p-p'],
             z=telecides['x-n'],
             mode="markers",
-            text=telecides.index-1,
+            text=telecides.index - 1,
             hovertemplate='Matching: %{x:.2f}<br>Easy: %{y:.2f}<br>Complicated: %{z:.2f}<extra>Unit: %{text}</extra>',
             marker=dict(size=7, symbol="circle", color=telecides)  # color=telecides.index, colorscale='balance'
         ),
