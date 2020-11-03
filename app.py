@@ -38,7 +38,7 @@ app.layout = html.Div([
                 appropriateness of an e-content unit for the needs of 
                 the specific learner or learners target group.
                 ''', className="text-center my-5"),
-    ], width=8,
+    ], width=7,
     ), justify='center',
     ),
 
@@ -78,11 +78,11 @@ app.layout = html.Div([
             html.Div(
                 [
                     html.Div([
-                        html.H6('Satura piemērotības zonas'),
-                        html.Img(title='paraugs', src='assets/landscape-segments.jpg', width='100%'),
-                        dbc.Alert("Atbilstošs saturs", color="success", className='mb-0'),
-                        dbc.Alert("Neatbilstošs saturs. Pārāk sarežģīts", color="danger", className='my-1'),
-                        dbc.Alert("Daļēji neatbilstošs, pārāk viegls saturs. ", color="primary", className='mt-0'),
+                        html.H6('Content suitability areas'),
+                        html.Img(title='example', src='assets/landscape-segments.jpg', width='100%'),
+                        dbc.Alert("Ideally matching content", color="success", className='mb-0'),
+                        dbc.Alert("Too complicated content", color="danger", className='my-1'),
+                        dbc.Alert("Too easy content ", color="primary", className='mt-0'),
                     ], className='mb-3 border p-3'),
                 ], className='ml-3'
             )
