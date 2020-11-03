@@ -58,8 +58,7 @@ app.layout = html.Div([
             dcc.Dropdown(options=[
                 {'label': 'Business Planning for Open Markets and Entrepreneurship',
                  'value': 'https://bpome.mii.lv/webservice/rest/server.php?wstoken=abc77eef5247b3aa21488df6a394a3d4'
-                          '&wsfunction=local_getstudentactivitydata_functiongetstudentactivitydata&date_from=0'
-                          '=local_notifyemailsignup_functiongetstudentactivitydata&moodlewsrestformat=json'},
+                          '&wsfunction=local_getstudentactivitydata_functiongetstudentactivitydata&date_from=0'},
                 {'label': 'Other course',
                  'value': 'https://artss.mii.lv/webservice/rest/server.php?courseid=12&wstoken'
                           '=a78e76c2570f41a3f180d0979914c7dc&wsfunction'
@@ -67,8 +66,7 @@ app.layout = html.Div([
                  'disabled': True},
             ],
                 value='https://bpome.mii.lv/webservice/rest/server.php?wstoken=abc77eef5247b3aa21488df6a394a3d4'
-                      '&wsfunction=local_getstudentactivitydata_functiongetstudentactivitydata&date_from=0'
-                      '=local_notifyemailsignup_functiongetstudentactivitydata&moodlewsrestformat=json',
+                      '&wsfunction=local_getstudentactivitydata_functiongetstudentactivitydata&date_from=0',
                 searchable=True,
                 placeholder='Izvēlies vai ievadi kursa nosaukumu',
                 persistence=True,
