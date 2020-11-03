@@ -124,7 +124,7 @@ app.layout = html.Div([
                         config={'displaylogo': False, 'showTips': True},
                     ),
                 ], type="default"),
-            ], className='border p2'),
+            ], className='border p-3'),
         ], width=7),
     ], justify="center"),
 ])
