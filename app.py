@@ -31,15 +31,15 @@ camera = dict(
 app.layout = html.Div([
     dbc.Row(dbc.Col([
         html.H1('TELECI DATA VISUALIZATION', className="text-center my-5"),
-        html.Div('''
-                Welcome to data visualization web application for TELECI project. 
-                Visualization method is called telecides and it reflects quantitative visualization of the 
-                appropriateness of an e-content unit for the needs of 
-                the specific learner or learners target group.
-                ''',
-                 dcc.Link(html.H6('Go to course content', className='mt-3'), href='https://bpome.mii.lv/',
-                          target='_blank'),
-                 className="text-center my-5"),
+        html.Div(['''
+                        Welcome to data visualization web application for TELECI project. 
+                        Visualization method is called telecides and it reflects quantitative visualization of the 
+                        appropriateness of an e-content unit for the needs of 
+                        the specific learner or learners target group.
+                        ''',
+                  dcc.Link(html.H6('Go to course content', className='mt-3'), href='https://bpome.mii.lv/',
+                           target='_blank'),
+                  ], className="text-center my-5"),
     ], width=7,
     ), justify='center',
     ),
