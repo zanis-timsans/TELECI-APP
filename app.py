@@ -30,7 +30,7 @@ camera = dict(
 # APPLICATION LAYOUT
 app.layout = html.Div([
     dbc.Row(dbc.Col([
-        html.H1('TELECI DATA VISUALIZATION', className="text-center my-5"),
+        html.H1('TELECI PROTOTYPE DATA VISUALIZATION', className="text-center my-5"),
         html.Div(['''
                         Welcome to data visualization web application for TELECI project. 
                         Visualization method is called telecides and it reflects quantitative visualization of the 
@@ -93,7 +93,7 @@ app.layout = html.Div([
             dbc.CardGroup([
                 dbc.Card(
                     dbc.CardBody([
-                        html.Div('Unit', className="card-title text-center"),
+                        html.Div('Units', className="card-title text-center"),
                         html.H1(id='tema', className='text-center clearfix')
                     ]), className=""
                 ),
@@ -117,7 +117,7 @@ app.layout = html.Div([
                 )
             ], className='mt-3 mb-3'),
             dbc.Col([
-                html.H5('Tēmas', className='ac'),
+                html.H5('Units', className=''),
                 dcc.Loading(id="loading-2", children=[
                     html.Div(id="loading-output-2", style={'display': 'none'}),
                     dcc.Graph(
