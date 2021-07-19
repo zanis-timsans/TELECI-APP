@@ -305,7 +305,8 @@ def update_telecides(value):
             krasa = 'lightcoral'
         if coll == 'section':
             krasa = 'mediumslateblue'
-        # Join 'p' and 'n' results into one column based on 'a' and 'b' questions. Keep lessonid number. Convert to dataframe using to_frame
+        # Join 'p' and 'n' results into one column based on 'a' and 'b' questions. Keep lessonid number. Convert to
+        # dataframe using to_frame
         x_df = y.groupby(by=[y.index // 2, coll])['correct_answer'].agg('-'.join).to_frame()
         # Reset index
         x_df.reset_index(level=[coll], inplace=True)
