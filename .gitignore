@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 venv
 *.pyc
 .env
+=======
+venv
+*.pyc
+.env
+>>>>>>> 7509f5d (Add files via upload)
 .DS_Store
