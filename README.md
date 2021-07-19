@@ -31,4 +31,3 @@ Unauthorized copying of this file, via any medium is strictly prohibited\
 Proprietary and confidential\
 Part of the [TELECI project](https://teleci.lv/)\
 Written by TELECI  Team 2019
-{"mode":"full","isActive":false}
