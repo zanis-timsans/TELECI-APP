@@ -3,8 +3,7 @@ Data visualisation web application. [DEMO](http://teleci.herokuapp.com/)
 
 ## Application Architecture
 ### Data processing model
-Transformation to xAPI and extraction
-This step works similarly to ETL data management approaches. Raw streams of data from virtual infrastructure, software, and applications are ingested either in their entirety or according to predefined rules. Virtually every LMS has an internal database that is collecting user activity and system data more often called a "log". For our experimental testbed we used Moodle. This LMS has many different data logging possibilities. Logs are available at site and course level:
+Ssimilarly to ETL data management approaches, the raw streams of data from virtual infrastructure, software, and applications are ingested either in their entirety or according to predefined rules. Virtually every LMS has an internal database that is collecting user activity and system data more often called a "log". For our experimental testbed we used Moodle. This LMS has many different data logging possibilities. Logs are available at site and course level:
 
 * A log of activity in the course may be generated in reports.
 * You can filter the logs by level -
@@ -54,6 +53,7 @@ Python Library requirements:
 ![image](https://user-images.githubusercontent.com/7984338/127028050-a1f6bac5-d6a6-4290-9ec0-5834c4fb9631.png)
 Pic: Process Flow
 Data stream that is read from raw JSON format from Moodles API is then cleaned and aggregated to form necessary dataframes for visualising Telecides. By manipulating multidimensional arrays of data (see Apendix) we can create new dataframe that consists of information about each course unit and the question pairs necessary to form Telecides (Table 1).
+
 ![image](https://user-images.githubusercontent.com/7984338/127029219-76c206e7-04a0-4a2e-9a61-9f2868858463.png)
 Table 1: Sum of all question pairs for each course unit ("section")
 
@@ -101,7 +101,7 @@ pip install library_name
 ```
 
 ## Usage
-Use together with Moodle ARTSS xAPI plugin.
+Use together with Moodle Teleci xAPI plugin.
 
 Update dropdown with your API link.
 ```python
