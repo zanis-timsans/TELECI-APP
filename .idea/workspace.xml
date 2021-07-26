@@ -31,16 +31,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b3e3751-6e30-4a96-acf0-48f14e877c13" name="Default Changelist" comment="Style fix">
-      <changelist_data name="Zanis" email="zanix11@yahoo.co.uk" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/python.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/renderer-script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/renderer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/share/jupyter/nbextensions/plotlywidget/extension.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/share/jupyter/nbextensions/plotlywidget/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3b3e3751-6e30-4a96-acf0-48f14e877c13" name="Default Changelist" comment="asdasdasd" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,15 +45,17 @@
   <component name="Git.Merge.Settings">
     <option name="BRANCH" value="origin/github" />
   </component>
-  <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="Zanis &lt;zanix11@yahoo.co.uk&gt;" />
-      </list>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="NO_VERIFY" />
+      </set>
     </option>
+  </component>
+  <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -139,18 +132,8 @@
       <option name="project" value="LOCAL" />
       <updated>1626707678952</updated>
     </task>
-    <task id="LOCAL-00003" summary="Style fix">
-      <created>1627322892503</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1627322892503</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="UpdateCopyrightCheckinHandler">
-    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -178,16 +161,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Initial commits" />
     <MESSAGE value="Initial commit" />
-    <MESSAGE value="asdasdasd" />
-    <MESSAGE value="Style fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Style fix" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="386" y="524" key="#Notifications" timestamp="1627313801435">
@@ -222,22 +198,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="287" y="462" key="MultipleFileMergeDialog/0.0.2560.1400/-1080.122.1080.1880@0.0.2560.1400" timestamp="1627322061886" />
-    <state x="528" y="421" key="RollbackChangesDialog" timestamp="1627324193873">
+    <state x="240" y="433" key="Vcs.Push.Dialog.v2" timestamp="1627321979146">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="528" y="421" key="RollbackChangesDialog/0.0.2560.1400/-1080.122.1080.1880@0.0.2560.1400" timestamp="1627324193873" />
-    <state x="240" y="433" key="Vcs.Push.Dialog.v2" timestamp="1627324248609">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="240" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.122.1080.1880@0.0.2560.1400" timestamp="1627324248609" />
+    <state x="240" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.122.1080.1880@0.0.2560.1400" timestamp="1627321979146" />
     <state x="417" y="434" key="VcsDiffUtil.ChangesDialog" timestamp="1626707658783">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="417" y="434" key="VcsDiffUtil.ChangesDialog/0.0.2560.1400/-1080.122.1080.1880@0.0.2560.1400" timestamp="1626707658783" />
-    <state x="457" y="618" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627323070379">
+    <state x="457" y="618" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627322195168">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="457" y="618" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/-1080.122.1080.1880@0.0.2560.1400" timestamp="1627323070379" />
+    <state x="457" y="618" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/-1080.122.1080.1880@0.0.2560.1400" timestamp="1627322195168" />
     <state x="429" y="413" key="git4idea.branch.GitSmartOperationDialog" timestamp="1627313756971">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
