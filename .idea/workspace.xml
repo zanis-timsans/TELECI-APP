@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:heroku" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3b3e3751-6e30-4a96-acf0-48f14e877c13" name="Default Changelist" comment="asdasdasd" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/github" />
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="NO_VERIFY" />
+      </set>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jmWyEC1HeCckTxtwusplOZkqu1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Google Drive\Python projects\TELECI\teleci-application" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="teleci-application" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b3e3751-6e30-4a96-acf0-48f14e877c13" name="Default Changelist" comment="" />
+      <created>1604409999662</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604409999662</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1626707274158</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626707274158</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1626707678952</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626707678952</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="BEK_SORT_TYPE" value="1" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commits" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="386" y="524" key="#Notifications" timestamp="1627313801435">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="386" y="524" key="#Notifications/0.0.2560.1400/-1080.122.1080.1880@0.0.2560.1400" timestamp="1627313801435" />
+    <state x="428" y="455" key="FileChooserDialogImpl" timestamp="1627321492235">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="428" y="455" key="FileChooserDialogImpl/0.0.2560.1400/-1080.122.1080.1880@0.0.2560.1400" timestamp="1627321492235" />
+    <state width="1257" height="397" key="GridCell.Tab.0.bottom" timestamp="1627321526541">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1257" height="397" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1080.122.1080.1880@0.0.2560.1400" timestamp="1627321526541" />
+    <state width="1257" height="397" key="GridCell.Tab.0.center" timestamp="1627321526541">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1257" height="397" key="GridCell.Tab.0.center/0.0.2560.1400/-1080.122.1080.1880@0.0.2560.1400" timestamp="1627321526541" />
+    <state width="1257" height="397" key="GridCell.Tab.0.left" timestamp="1627321526541">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1257" height="397" key="GridCell.Tab.0.left/0.0.2560.1400/-1080.122.1080.1880@0.0.2560.1400" timestamp="1627321526541" />
+    <state width="1257" height="397" key="GridCell.Tab.0.right" timestamp="1627321526541">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1257" height="397" key="GridCell.Tab.0.right/0.0.2560.1400/-1080.122.1080.1880@0.0.2560.1400" timestamp="1627321526541" />
+    <state x="0" y="123" key="MergeDialog" timestamp="1627322051767">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="0" y="123" key="MergeDialog/0.0.2560.1400/-1080.122.1080.1880@0.0.2560.1400" timestamp="1627322051767" />
+    <state x="287" y="462" key="MultipleFileMergeDialog" timestamp="1627322061886">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="287" y="462" key="MultipleFileMergeDialog/0.0.2560.1400/-1080.122.1080.1880@0.0.2560.1400" timestamp="1627322061886" />
+    <state x="240" y="433" key="Vcs.Push.Dialog.v2" timestamp="1627321979146">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="240" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1080.122.1080.1880@0.0.2560.1400" timestamp="1627321979146" />
+    <state x="417" y="434" key="VcsDiffUtil.ChangesDialog" timestamp="1626707658783">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="417" y="434" key="VcsDiffUtil.ChangesDialog/0.0.2560.1400/-1080.122.1080.1880@0.0.2560.1400" timestamp="1626707658783" />
+    <state x="457" y="618" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627322195168">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="457" y="618" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/-1080.122.1080.1880@0.0.2560.1400" timestamp="1627322195168" />
+    <state x="429" y="413" key="git4idea.branch.GitSmartOperationDialog" timestamp="1627313756971">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="429" y="413" key="git4idea.branch.GitSmartOperationDialog/0.0.2560.1400/-1080.122.1080.1880@0.0.2560.1400" timestamp="1627313756971" />
+    <state x="443" y="616" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1627321957323">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="443" y="616" key="git4idea.rebase.GitUnstructuredEditor/0.0.2560.1400/-1080.122.1080.1880@0.0.2560.1400" timestamp="1627321957323" />
+    <state x="394" y="598" key="git4idea.ui.GitResetDialog" timestamp="1627322149247">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="394" y="598" key="git4idea.ui.GitResetDialog/0.0.2560.1400/-1080.122.1080.1880@0.0.2560.1400" timestamp="1627322149247" />
+    <state x="310" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1626707704643">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="310" y="319" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1080.122.1080.1880@0.0.2560.1400" timestamp="1626707704643" />
+  </component>
+</project>
