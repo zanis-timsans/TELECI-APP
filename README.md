@@ -1,5 +1,5 @@
 # TELECI-APP
-data visualisation web application
+Data visualisation web application. [DEMO](http://teleci.herokuapp.com/)
 
 ## Installation
 
