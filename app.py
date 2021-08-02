@@ -113,11 +113,13 @@ fig.update_layout(
 app.layout = html.Div([
     dbc.Row(dbc.Col([
         html.H1('TELECI PROTOTYPE DATA VISUALIZATION', className="text-center my-5"),
-        html.H6('''
+        html.Div([
+            html.H6('''
             Supported by a grant from the European Regional Development Fund (ERFD/ERAF) project “Technology Enhanced 
             Learning E-ecosystem with Stochastic Interdependences - TELECI”, Project No.1.1.1.1./16/A/154
-            ''', className="text-center p-3 border"),
-
+            ''', className="pb-3"),
+            html.Img(title='logo', src='assets/image.png')
+        ], className="text-center p-3"),
     ], width=7, className="mb-5",
     ), justify='center'
     ),
