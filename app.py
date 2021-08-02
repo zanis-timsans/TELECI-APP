@@ -113,31 +113,36 @@ fig.update_layout(
 app.layout = html.Div([
     dbc.Row(dbc.Col([
         html.H1('TELECI PROTOTYPE DATA VISUALIZATION', className="text-center my-5"),
-        html.Div(['''
-                        Welcome to data visualization web application for TELECI project. 
-                        Visualization method is called telecides and it reflects quantitative visualization of the 
-                        appropriateness of an e-content unit for the needs of 
-                        the specific learner or learners target group.
-                        ''',
-                  dcc.Link(html.H6('Go to course content', className='mt-3'), href='https://bpome.mii.lv/',
-                           target='_blank'),
-                  ], className="text-center my-5"),
-    ], width=7,
-    ), justify='center',
+        html.H6('''
+            Supported by a grant from the European Regional Development Fund (ERFD/ERAF) project “Technology Enhanced 
+            Learning E-ecosystem with Stochastic Interdependences - TELECI”, Project No.1.1.1.1./16/A/154
+            ''', className="text-center p-3 border"),
+
+    ], width=7, className="mb-5",
+    ), justify='center'
     ),
 
     dbc.Row([
         dbc.Col([
+            html.Div(['''
+                Welcome to data visualization web application for TELECI project. 
+                Visualization method is called telecides and it reflects quantitative visualization of the 
+                appropriateness of an e-content unit for the needs of 
+                the specific learner or learners target group.
+                ''',
+            ], className='ml-3 my-3 border p-3 font-weight-bold'),
             html.Div([html.H5('About visualization'),
-                      '''
+                '''
                 The student performance data before and after learning the e-content were used for knowledge acquisition 
                 model design. This model is based on the assumption that knowledge acquisition of real e-content can be 
                 quantified by superposition of the impact of learning “perfect” content, too easy content, and too 
                 complicated content. The data of real course learner knowledge acquisition are located on this surface. 
                 These points are performing curves called telecides. Telecides are quantitative visualization of the 
                 appropriateness of an e-content unit for the needs of the specific learner or learners target group.
-                '''], className='ml-3 my-3 border p-3'
-                     ),
+                ''',
+                dcc.Link(html.H6('Go to Moodle (course content)', className='mt-3'),
+                    href='https://bpome.mii.lv/', target='_blank'),
+            ], className='ml-3 my-3 border p-3'),
             html.Div("Choose course", className='ml-3'),
             dcc.Dropdown(options=[
                 {'label': 'Business Planning for Open Markets and Entrepreneurship',
@@ -156,7 +161,7 @@ app.layout = html.Div([
                 persistence=True,
                 persistence_type='local',  # memory-tab refresh, session-tab is closed, local-cookies
                 id='courses_dropdown',
-                className='ml-3 mb-5',
+                className='ml-3 mb-3',
                 clearable=False
             ),
             html.Div(
